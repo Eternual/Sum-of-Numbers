@@ -1,0 +1,4 @@
+x = input("First number: ");
+y = input("Second number: ");
+sum = x+y;
+return sum;
