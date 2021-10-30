@@ -1,4 +1,7 @@
-x = input("First number: ");
-y = input("Second number: ");
-sum = x+y;
+sum = 0;
+digits = input("How many numbers?");
+for i in range (digits):
+{
+  sum = sum + input("What is the " + str(i) + "th digit you want to add?");
+}
 return sum;
